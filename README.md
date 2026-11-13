@@ -1,9 +1,10 @@
 # ESP32BadUSB
 Badusb script that turns off real time protection and triggers a revers shell locally, in both AZERTY and QWERTY computers.
+Test on  ESP32 S3, no need for SDcard.
 
 # Usage
-in the payload replace 172.16.0.4 with private IP of listener device
-and replace   Keyboard.begin(KeyboardLayout_fr_FR);  by  Keyboard.begin(); for usa QWERTY computer.
+in the payload replace #PHASE2 172.16.0.4 with private IP of listener device
+and replace   Keyboard.begin (KeyboardLayout_fr_FR);  by  Keyboard.begin(); for USA QWERTY computer.
 
 
 ## ⚠️ Legal Disclaimer
