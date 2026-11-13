@@ -4,7 +4,7 @@ Badusb script that turns off real time protection and triggers a revers shell lo
 Tested on  ESP32 S3, no need for SDcard.
 
 # Usage
-in the payload replace #PHASE2 172.16.0.4 with private IP of listener device
+in the payload (PHASE2) replace  172.16.0.4 with private IP of listener device
 and replace   Keyboard.begin (KeyboardLayout_fr_FR);  by  Keyboard.begin(); for USA QWERTY computer.
 
 
